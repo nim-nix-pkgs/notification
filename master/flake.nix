@@ -11,7 +11,6 @@
   inputs.src-notification-master.ref   = "refs/heads/master";
   inputs.src-notification-master.owner = "SolitudeSF";
   inputs.src-notification-master.repo  = "notification";
-  inputs.src-notification-master.dir   = "";
   inputs.src-notification-master.type  = "github";
   
   inputs."dbus".owner = "nim-nix-pkgs";

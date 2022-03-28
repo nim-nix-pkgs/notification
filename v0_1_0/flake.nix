@@ -11,8 +11,15 @@
   inputs.src-notification-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-notification-v0_1_0.owner = "SolitudeSF";
   inputs.src-notification-v0_1_0.repo  = "notification";
-  inputs.src-notification-v0_1_0.dir   = "";
   inputs.src-notification-v0_1_0.type  = "github";
+  
+  inputs."github.com/solitudesf/nim-dbus".owner = "nim-nix-pkgs";
+  inputs."github.com/solitudesf/nim-dbus".ref   = "master";
+  inputs."github.com/solitudesf/nim-dbus".repo  = "github.com/solitudesf/nim-dbus";
+  inputs."github.com/solitudesf/nim-dbus".dir   = "";
+  inputs."github.com/solitudesf/nim-dbus".type  = "github";
+  inputs."github.com/solitudesf/nim-dbus".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/solitudesf/nim-dbus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."imageman".owner = "nim-nix-pkgs";
   inputs."imageman".ref   = "master";

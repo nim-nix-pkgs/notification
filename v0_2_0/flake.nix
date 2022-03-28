@@ -11,7 +11,6 @@
   inputs.src-notification-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-notification-v0_2_0.owner = "SolitudeSF";
   inputs.src-notification-v0_2_0.repo  = "notification";
-  inputs.src-notification-v0_2_0.dir   = "";
   inputs.src-notification-v0_2_0.type  = "github";
   
   inputs."dbus".owner = "nim-nix-pkgs";
